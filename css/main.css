@@ -54,7 +54,7 @@ img {
   display: flex;
 }
 
-.columns .cl-1, .cl-2, .cl-3, .cl-4 {
+.column .cl-1, .cl-2, .cl-3, .cl-4 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
