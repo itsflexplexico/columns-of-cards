@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0 1.5rem 1.5rem;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+cite {
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.img {
+  padding: 0;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+}
+
+.columns .cl-1, .cl-2, .cl-3, .cl-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  padding: .75rem;
+  border: 1px solid #333;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: .875rem;
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+.btn-small {
+  color: #f2f2f2;
+  background-color: #333;
+}
+
+.cl-1 {
+  background-color: #e2e2e2;
+}
+
+.cl-2 {
+  background-color: #ccc;
+}
+
+.cl-3 {
+  background-color: #aaa;
+}
+
+.cl-4 {
+  background-color: #999;
+}
+
+.btn:hover {
+  background-color: #000;
+}
